@@ -1,0 +1,239 @@
+.oneteam_title{
+	width: 56%;
+    margin: 15px auto;
+    text-align: center;
+    height: 100px;
+}
+
+.oneteam_title h3{
+	font-size: 50px;
+    font-weight: bold;
+    line-height: 100px;
+    color: black;
+}
+
+.content_up{
+	width: 100%;
+	font-family: "Microsoft YaHei";
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height:346px;
+}
+
+.group_photo{
+	width: 55%;
+	height: auto;
+	float: left;
+}
+
+.group_photo img{
+	height:347px;
+	width:100%;
+}
+
+.team_introduction{
+	margin-left: 5%;
+	float: left;
+	width: 40%;
+}
+
+.introduction_title p{
+	font-size: 30px;
+	background-color: #c490bf;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.introduction_content{
+	background-color: white;
+	padding: 20px;
+	height: 192px;
+}
+
+.introduction_content p{
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+
+.introduction_times h2{
+	text-align: center;
+	background-color: #e76877;
+	color: white;
+	margin: 0;
+	line-height: 55px;
+	letter-spacing: 5px;
+}
+
+.content_middle{
+	font-family: "Microsoft YaHei";
+}
+
+.events_title{
+	margin: 0 auto;
+	color: #185a7d;
+	width: 36%;
+	letter-spacing: 10px;
+}
+
+.events_title p{
+	font-size: 35px;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.content_events_main{
+	width: 100%;
+	height: auto;
+}
+
+.events_main_nav{
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: black;
+	height: 50px;
+	margin: 0;
+	background-color: #c490bf;
+}
+
+.events_main_nav li{
+	line-height: 30px;
+	width: 71px;
+	list-style: none;
+	float: left;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.events_main_content{
+	background-color: white;
+	margin: 0 0 50px 0;
+}
+
+.contentbox_list{
+	margin: 0;
+	height: 40px;
+}
+
+.events_main_content li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.content_item_date{
+	background-color: #f19ec2;
+	color: white;
+	font-size: 20px;
+	width: 1025px;
+	line-height: 40px;
+	padding-left: 25px;
+}
+
+.contentbox_list li{
+	font-size: 18px;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+	width: 71px;
+	text-align: center;
+}
+
+.content_item_time + li{
+	width: 150px;
+}
+
+.content_item_team1 + li{
+	width: 75px;
+}
+
+.content_item_team1 a,.content_item_team2 a{
+	color:#ea002a;
+}
+
+.events_main_content a{
+	cursor: pointer;
+}
+
+.events_list_finished li{
+	background-color: #dcdcdc;
+}
+
+.content_item_score + li{
+	width: 150px;
+}
+
+.team_member{
+	width: 100%;
+	margin: 0;
+	font-family: "Microsoft YaHei";
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.team_member_title{
+	height: 50px;
+    width: 100%;
+    background-color: #c490bf;
+}
+
+.team_member_title h2{
+	font-size: 23px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+    font-family: 微软雅黑;
+    letter-spacing: 5px;
+    margin: 0px;
+    float: left;
+    padding-left: 25px;
+}
+
+.team_member_content{
+	background-color: white;
+	overflow: hidden;
+}
+
+.team_member_content div{
+	float: left;
+}
+
+.member_content_person{
+	width: 21.3%;
+	padding:10px;
+	margin: 10px 0 10px 15px;
+	background-color: #eeeeee;
+}
+
+.person_pic{
+	width: 45%;
+	height:120px;
+}
+
+.person_pic a{
+	height:100%;
+	width:100%;
+}
+
+.person_pic img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.person_info p{
+	padding-left: 25px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.person_info>p:nth-child(1) {
+	padding-top:10px;
+}
