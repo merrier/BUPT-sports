@@ -1,414 +1,436 @@
 
-.home_content_events{
-	width:100%;
-	height:170px;
-	background-color: white;
-	margin-bottom: 30px;
+.home_content_events {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    margin-bottom: 30px;
 }
 
-.content_events_title{
-	height:47px;
-	font-size: 20px;
+.content_events_title {
+    height: 47px;
+    font-size: 20px;
     line-height: 47px;
     padding-left: 20px;
 }
 
-.content_events_title a{
-	color: #ea002a;
-	font-weight: bold;
+.content_events_title a {
+    color: #ea002a;
+    font-weight: bold;
 }
 
-.content_events_main{
-	height:120px;
-	border:3px dotted #c27aa0;
+.content_events_main {
+    height: 120px;
+    border: 3px dotted #c27aa0;
 }
 
-.events_main_left{
-	float:left;
-	width:3%;
-	text-align: center;
-	height:118px;
-	margin-top: 2px;
-	cursor: pointer;
+.events_main_left {
+    float: left;
+    width: 3%;
+    text-align: center;
+    height: 118px;
+    margin-top: 2px;
+    cursor: pointer;
 }
 
-.events_main_right{
-	float:right;
-	width:3%;
-	text-align: center;
-	height:118px;
-	margin-top: 2px;
-	cursor:pointer;
+.events_main_right {
+    float: right;
+    width: 3%;
+    text-align: center;
+    height: 118px;
+    margin-top: 2px;
+    cursor: pointer;
 }
 
-.events_main_left i,.events_main_right i{
-	font-size: 35px;
-	color:#888888;
-	line-height: 118px;
+.events_main_left i, .events_main_right i {
+    font-size: 35px;
+    color: #888888;
+    line-height: 118px;
 }
 
-.events_main_left i:hover,.events_main_right i:hover{
-	color:#666666;
+.events_main_left i:hover, .events_main_right i:hover {
+    color: #666666;
 }
 
-
-.events_main_left img,.events_main_right img{
-	width:38px;
-	height:auto;
-	cursor:pointer;
-	box-shadow: 0 0 10px #a1a1a1;
+.events_main_left img, .events_main_right img {
+    width: 38px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0 0 10px #a1a1a1;
 }
 
-.events_main_content{
-	text-align: center;
-	width:980px;
-	height:120px;
-	margin:0 auto;
-	float: left;
-	font-size: 15px;
-	position: relative;
-	overflow: hidden;
+.events_main_content {
+    text-align: center;
+    width: 980px;
+    height: 120px;
+    margin: 0 auto;
+    float: left;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
 }
 
-.events_main_contentbox{
-	position: absolute;
-	width: 4900px;
-	height: 120px;
-	left: 0;
+.events_main_contentbox {
+    position: absolute;
+    width: 4900px;
+    height: 120px;
+    left: 0;
 }
 
-
-.events_main_contentlist{
-	float: left;
-	width: 980px;
+.events_main_contentlist {
+    float: left;
+    width: 980px;
 }
 
-.main_content_list{
-	height:36px;
-	width:100%;
-	margin:0;
-	border-bottom: 1px dashed black;
-	font-family: "黑体";
-	padding:2px 0;
+.main_content_list {
+    height: 36px;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px dashed black;
+    font-family: "黑体";
+    padding: 2px 0;
 }
 
-.content_list_finished li{
-	background-color: #eeeeee;
+.content_list_finished li {
+    background-color: #eeeeee;
 }
 
-.content_list_last{
-	border:0;
+.content_list_last {
+    border: 0;
 }
 
-.main_content_list li{
-	width:12%;
-	float:left;
-	line-height: 36px;
+.main_content_list li {
+    width: 12%;
+    float: left;
+    line-height: 36px;
 }
 
-.content_item_state{
-	background-color: #f19ec2;
+.content_item_state {
+    background-color: #f19ec2;
 }
 
-.content_list_finished .content_item_state{
-	background-color: #dcdcdc;
+.content_list_finished .content_item_state {
+    background-color: #dcdcdc;
 }
 
-.main_content_list .content_item_team1,.main_content_list .content_item_team2{
-	color:#ea002a;
-	width:14.5%;
+.main_content_list .content_item_team1, .main_content_list .content_item_team2 {
+    color: #ea002a;
+    width: 14.5%;
 }
 
-.main_content_list .content_item_score{
-	width:11%;
+.main_content_list .content_item_score {
+    width: 11%;
 }
 
-.content_item_team1 a,.content_item_team2 a{
-	color:#ea002a;
-	cursor:pointer;
+.content_item_team1 a, .content_item_team2 a {
+    color: #ea002a;
+    cursor: pointer;
 }
 
-.content_item_link a{
-	color:#004a88;
-	font-family: "宋体";
-	cursor: pointer;
+.content_item_link a {
+    color: #004a88;
+    font-family: "宋体";
+    cursor: pointer;
 }
 
 .home_content_middle {
-	width: 100%;
-	height: 400px;
-	margin-bottom: 40px;
-}
-.content_middle_left{
-	width: 58.55%;
-	height: 400px;
-	padding: 0px;
-	float: left;
-	overflow: hidden;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
 }
 
-.carousel-inner .item .carousel-caption{
-	bottom: 0;
-	height: 15px;
+.content_middle_left {
+    width: 58.55%;
+    height: 400px;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
 }
 
-.carousel-inner .item .carousel-caption p{
-	font-size: 20px;
-	line-height: 15px;
+.carousel-inner .item .carousel-caption {
+    bottom: 0;
+    height: 15px;
 }
 
-#myCarousel .carousel-control{
-	top: 45%;
-	display: none;
+.carousel-inner .item .carousel-caption p {
+    font-size: 20px;
+    line-height: 15px;
 }
 
-
-.carousel-inner .item img{
-	height:400px;
-	width:100%;
-	overflow: hidden;
-	transition: all 2s ease-out;
-	-moz-transition: all 2s ease-out;
-	-o-transition: all 2s ease-out;
-	-ms-transition: all 2s ease-out;
-} 
-
-.carousel-inner .item img:hover{
-	transform:scale(1.1);
-	-moz-transition:scale(1.1);
-	-o-transition:scale(1.1);
-	-ms-transition:scale(1.1);
-} 
-
-.home_content_news{
-	width: 37.75%;
-	height: 400px;
-	padding: 0px;
-	float: right;
-	overflow: hidden;
+#myCarousel .carousel-control {
+    top: 45%;
+    display: none;
 }
 
-.content_news_box{
-	height:435px;
-	width:100%;
-	background-color: white;
+.carousel-inner .item img {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
 }
 
-.content_news_list{
-	width:95%;
-	margin:0 auto;
+.carousel-inner .item img:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
 }
 
-.content_news_item{
-	height: 35px;
+.home_content_news {
+    width: 37.75%;
+    height: 400px;
+    padding: 0px;
+    float: right;
+    overflow: hidden;
+}
+
+.content_news_box {
+    height: 435px;
+    width: 100%;
+    background-color: white;
+}
+
+.content_news_list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.content_news_item {
+    height: 35px;
     margin: 0;
     font-size: 15px;
     width: 100%;
     padding: 2px 0;
     line-height: 35px;
     list-style: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.content_news_item a{
-	color:black;
-	display:block;
+.content_news_item a {
+    color: black;
+    display: block;
 }
 
-.content_news_item a:hover{
-	text-decoration: none;
+.content_news_item a:hover {
+    text-decoration: none;
 }
 
-.content_news_item a i{
-	color:blue;
-	margin-right: 5px;
-	display: none;
+.content_news_item a i {
+    color: blue;
+    margin-right: 5px;
+    display: none;
 }
 
-.content_news_item span{
-	float: right;
+.content_news_item span {
+    float: right;
 }
 
-.home_content_rank{
-	margin-bottom: 20px;
-	width: 100%;
+.home_content_rank {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-.content_rank_football,.content_rank_basketball{
-	background-color: white;
-	width:100%;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	height:380px;
+.content_rank {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 380px;
 }
 
-.rank_football_title{
-	height:50px;
-	width:100%;
-	background-color: #c490bf;
+.rank_title {
+    height: 50px;
+    width: 100%;
+    background-color: #c490bf;
 }
 
-.content_title img{
-	float:left;
-	height:50px;
-	width:auto;
+.content_title img {
+    float: left;
+    height: 50px;
+    width: auto;
 }
 
-.content_rank_football .content_title img{
-	margin-left:27px;
+.content_rank_football .content_title img {
+    margin-left: 27px;
 }
 
-.rank_football_title h2{
-	font-size: 23px;
-	font-weight: bold;
-	color:white;
-	line-height: 50px;
-	padding-left: 95px;
-	font-family: "微软雅黑";
-	letter-spacing: 5px;
-	margin:0;
+.rank_title h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+    padding-left: 95px;
+    font-family: "微软雅黑";
+    letter-spacing: 5px;
+    margin: 0;
 }
 
-.rank_football_box{
-	padding:5px 20px;
+.rank_box {
+    padding: 5px 20px;
 }
 
-.rank_football_team,.rank_football_member{
-	width:45%;
-	border:5px groove #f19ec2;
-	padding:2px 15px 10px 15px;
+.rank_team, .rank_member {
+    width: 45%;
+    border: 5px groove #f19ec2;
+    padding: 2px 15px 10px 15px;
 }
 
-.rank_football_team{
-	float:left;
+.rank_team {
+    float: left;
 }
 
-.rank_football_member{
-	float:right;
+.rank_member {
+    float: right;
 }
 
-.rank_football_header{
-	height:45px;
+.rank_header {
+    height: 45px;
 }
 
-.rank_football_header h3{
-	line-height: 45px;
-	color:black;
-	font-size: 20px;
-	margin:0;
-	float:left;
+.rank_header h3 {
+    line-height: 45px;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    float: left;
 }
 
-.rank_football_main{
-	text-align: center;
+.rank_main {
+    text-align: center;
 }
 
-.football_main_title{
-	height:36px;
-	margin:0;
-	font-size: 18px;
-	width:100%;
-	border-bottom: 1px solid black;
-	padding:2px 0;
-	font-weight: bold;
+.rank_main_title {
+    height: 36px;
+    margin: 0;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 2px 0;
+    font-weight: bold;
 }
 
-.football_main_title li{
-	float:left;
-	line-height: 36px;
+.rank_main_title li {
+    float: left;
+    line-height: 36px;
 }
 
-.football_title_position{
-	width:19%;
+.rank_title_position {
+    width: 19%;
 }
 
-.football_title_teamname{
-	width:30%;
+.rank_title_teamname {
+    width: 30%;
 }
 
-.football_title_number{
-	width:17%;
+.rank_title_number {
+    width: 17%;
 }
 
-.football_title_win{
-	width:30%;
+.rank_title_win {
+    width: 30%;
 }
 
-.rank_football_list{
-	height:36px;
-	margin:0;
-	font-size: 12px;
-	width:100%;
-	border-bottom: 1px solid black;
-	padding: 2px 0;
+.rank_list {
+    height: 36px;
+    margin: 0;
+    font-size: 12px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 2px 0;
 }
 
-.rank_football_list li{
-	float:left;
-	font-size: 16px;
-	line-height: 36px;
-	font-family: "黑体";
+.rank_list li {
+    float: left;
+    font-size: 16px;
+    line-height: 36px;
+    font-family: "黑体";
 }
 
-.football_item_position{
-	width:19%;
+.rank_item_position {
+    width: 19%;
 }
 
-.football_item_teamname{
-	width:30%;
+.rank_item_position.rank1 {
+    color: #f23c22;
 }
 
-.football_item_teamname a{
-	color:#ea002a;
-	cursor:pointer;
+.rank_item_position.rank2 {
+    color: #ff903b;
 }
 
-.football_item_number{
-	width:17%;
+.rank_item_position.rank3 {
+    color: #ffc535;
 }
 
-.football_item_win{
-	width:30%;
+.rank_item_teamname {
+    width: 30%;
 }
 
-.football_title_position_r{
-	width:20%;
+.rank_item_teamname a {
+    color: #ea002a;
+    cursor: pointer;
 }
 
-.football_title_name_r{
-	width:20%;
+.rank_item_number {
+    width: 17%;
 }
 
-.football_title_number_r{
-	width:20%;
+.rank_item_win {
+    width: 30%;
 }
 
-.football_title_teamname_r{
-	width:40%;
+.rank_title_position_r {
+    width: 20%;
 }
 
-.football_item_position_r{
-	width:20%;
+.rank_title_name_r {
+    width: 20%;
 }
 
-.football_item_name_r{
-	width:20%;
+.rank_title_number_r {
+    width: 20%;
 }
 
-.football_item_name_r a{
-	color:#66b82b;
-	cursor:pointer;
+.rank_title_teamname_r {
+    width: 40%;
 }
 
-.football_item_number_r{
-	width:20%;
+.rank_item_position_r {
+    width: 20%;
 }
 
-.football_item_teamname_r{
-	width:40%;
+.rank_item_position_r.rank1 {
+    color: #f23c22;
 }
- 
-.football_item_teamname_r a{
-	color:#ea002a;
-	cursor:pointer;
+
+.rank_item_position_r.rank2 {
+    color: #ff903b;
+}
+
+.rank_item_position_r.rank3 {
+    color: #ffc535;
+}
+
+.rank_item_name_r {
+    width: 20%;
+}
+
+.rank_item_name_r a {
+    color: #66b82b;
+    cursor: pointer;
+}
+
+.rank_item_number_r {
+    width: 20%;
+}
+
+.rank_item_teamname_r {
+    width: 40%;
+}
+
+.rank_item_teamname_r a {
+    color: #ea002a;
+    cursor: pointer;
 }

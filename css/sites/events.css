@@ -1,166 +1,166 @@
-.teamlist_content_title{
-	margin: 0 auto;
-	color: #185a7d;
-	font-family: "Microsoft YaHei";
-	width: 36%;
-	letter-spacing: 10px;
+.teamlist_content_title {
+    margin: 0 auto;
+    color: #185a7d;
+    font-family: "Microsoft YaHei";
+    width: 36%;
+    letter-spacing: 10px;
 }
 
-.teamlist_content_title h1{
-	font-size: 40px;
-	line-height: 60px;
-	margin-top: 10px;
+.teamlist_content_title h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 10px;
 }
 
-.content_up{
-	width: 100%;
-	font-family: "Microsoft YaHei";
-	margin-top: 20px;
-	margin-bottom: 20px;
-	height:346px;
+.content_up {
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 346px;
 }
 
-.group_photo{
-	width: 55%;
-	height: auto;
-	float: left;
+.group_photo {
+    width: 55%;
+    height: auto;
+    float: left;
 }
 
-.team_introduction{
-	margin-left: 5%;
-	float: left;
-	width: 40%;
+.team_introduction {
+    margin-left: 5%;
+    float: left;
+    width: 40%;
 }
 
-.introduction_title p{
-	font-size: 30px;
-	background-color: #c490bf;
-	line-height: 60px;
-	text-align: center;
-	letter-spacing: 5px;
-	font-weight: bold;
-	margin: 0px;
+.introduction_title p {
+    font-size: 30px;
+    background-color: #c490bf;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 0px;
 }
 
-.introduction_content{
-	background-color: white;
-	padding: 20px;
-	height: 192px;
+.introduction_content {
+    background-color: white;
+    padding: 20px;
+    height: 192px;
 }
 
-.introduction_content p{
-	font-size: 20px;
-	line-height: 25px;
-	letter-spacing: 2px;
+.introduction_content p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
 }
 
-.introduction_times h2{
-	text-align: center;
-	background-color: #e76877;
-	color: white;
-	margin: 0;
-	line-height: 55px;
-	letter-spacing: 5px;
+.introduction_times h2 {
+    text-align: center;
+    background-color: #e76877;
+    color: white;
+    margin: 0;
+    line-height: 55px;
+    letter-spacing: 5px;
 }
 
-.content_middle{
-	font-family: "Microsoft YaHei";
+.content_middle {
+    font-family: "Microsoft YaHei";
 }
 
-.events_title{
-	width:56%;
-	margin:15px auto;
-	text-align: center;
-	height:100px;
-	position: relative;
+.events_title {
+    width: 56%;
+    margin: 15px auto;
+    text-align: center;
+    height: 100px;
+    position: relative;
 }
 
-.events_title h3{
-	font-size: 50px;
-	font-weight: bold;
-	line-height: 100px;
-	color: black;
+.events_title h3 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 100px;
+    color: black;
 }
 
-.content_events_main{
-	width: 100%;
-	height: auto;
+.content_events_main {
+    width: 100%;
+    height: auto;
 }
 
-.events_main_nav{
-	width: 100%;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 5px;
-	color: black;
-	height: 50px;
-	margin: 0;
-	background-color: #c490bf;
+.events_main_nav {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: black;
+    height: 50px;
+    margin: 0;
+    background-color: #c490bf;
 }
 
-.events_main_nav li{
-	line-height: 30px;
-	width: 71px;
-	list-style: none;
-	float: left;
-	padding: 10px 20px;
-	text-align: center;
+.events_main_nav li {
+    line-height: 30px;
+    width: 71px;
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    text-align: center;
 }
 
-.events_main_content{
-	background-color: white;
-	margin: 0 0 50px 0;
+.events_main_content {
+    background-color: white;
+    margin: 0 0 50px 0;
 }
 
-.events_main_content ul{
-	margin: 0;
-	height: 40px;
+.events_main_content ul {
+    margin: 0;
+    height: 40px;
 }
 
 .events_main_content li {
-	list-style: none;
-	float: left;
-	margin: 0;
-	padding-left: 10px;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
 }
 
-.content_item_date{
-	background-color: #f19ec2;
-	color: white;
-	font-size: 20px;
-	width: 1025px;
-	line-height: 40px;
-	padding-left: 25px;
+.content_item_date {
+    background-color: #f19ec2;
+    color: white;
+    font-size: 20px;
+    width: 1025px;
+    line-height: 40px;
+    padding-left: 25px;
 }
 
-.contentbox_list li{
-	font-size: 18px;
-	background-color: white;
-	padding: 10px 20px 10px 20px;
-	width: 71px;
-	text-align: center;
+.contentbox_list li {
+    font-size: 18px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    width: 71px;
+    text-align: center;
 }
 
-.content_item_time + li{
-	width: 150px;
+.content_item_time + li {
+    width: 150px;
 }
 
-.content_item_team1 + li{
-	width: 75px;
+.content_item_team1 + li {
+    width: 75px;
 }
 
-.content_item_score + li{
-	width: 150px;
+.content_item_score + li {
+    width: 150px;
 }
 
-.content_item_team1 a,.content_item_team2 a{
-	color:#ea002a;
+.content_item_team1 a, .content_item_team2 a {
+    color: #ea002a;
 }
 
-.events_main_content a{
-	cursor: pointer;
+.events_main_content a {
+    cursor: pointer;
 }
 
-.events_list_finished li{
-	background-color: #dcdcdc;
+.events_list_finished li {
+    background-color: #dcdcdc;
 }

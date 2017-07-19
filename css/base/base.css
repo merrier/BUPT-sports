@@ -303,17 +303,17 @@ a {
     font-size: 25px;
 }
 
-.footer_list_item.active>a {
-    background-color: #bd8fd6
+.nav_footer_list .footer_list_item.active > a {
+    background-color: #bd8fd6;
 }
 
 .footer_list_item a:link {
-    background-color: #966cae
+    background-color: #966cae;
 }
 
 /*.footer_list_item a:visited {background-color: #966cae}*/
 .footer_list_item a:hover {
-    background-color: #bd8fd6
+    background-color: #bd8fd6;
 }
 
 /*.footer_list_item a:active {background-color: #bd8fd6}   */

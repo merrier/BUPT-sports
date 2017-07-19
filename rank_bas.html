@@ -1,425 +1,431 @@
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>篮球排行榜</title>
-	<link rel="stylesheet" href="css/base/bootstrap.min.css"/>
+    <meta charset="utf-8">
+    <title>篮球排行榜</title>
+    <link rel="stylesheet" href="css/base/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/base/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/base/base.css"/>
-    <link rel="stylesheet" href="css/sites/rank_bas.css"/>
+    <link rel="stylesheet" href="css/sites/rank.css"/>
 
 </head>
 
 <body>
 
-	<!---意见反馈-->
-	<div id="feedbackall">
+<!---意见反馈-->
+<div id="feedbackall">
 
-		<div id="feedbacktab">
-	        <i class="fa fa-angle-double-left"></i>
-	    </div>
-
-
-		<div id="feedback">
-			<div class="section">
-		    
-		        <h6>意见反馈</h6>
-		        
-		        <p class="message">欢迎您访问本网站！您可以在下面提出任何问题与建议，并请写出您的联系方式以便工作人员联系您！</p>
-		        
-		        <textarea></textarea>
-		        
-		        <a class="submit" href="#">提交</a>
-	    	</div>
-				
-		</div>
-	</div>
+    <div id="feedbacktab">
+        <i class="fa fa-angle-double-left"></i>
+    </div>
 
 
-	<div id='goToTop'>
-		<a href='#'><i class="fa fa-angle-up"></i></a>
-	</div>
+    <div id="feedback">
+        <div class="section">
 
-	<!--导航-->
-	<div class="home_nav">
-		<div class="home_nav_top">
-			<div class="nav_top_logo" >
-				<img src="images/buptyh.png" alt="北京邮电大学研究生会"/>
-			</div>
-			
-			<div class="nav_top_title">
-				<h1>北京邮电大学研究生会</h1>
-			</div>
+            <h6>意见反馈</h6>
 
-			<div class="nav_top_right">
-				<img class="nav_top_picbasket" src="images/nav_basketball.png" alt=""/>
-				<img class="nav_top_picfoot" src="images/nav_football.png" alt=""/>
-				
-				<p class="top_right_ti">体</p>
-				<p class="top_right_yu">育</p>
-				<p class="top_right_bu">部</p>
-			</div>
-		</div>
-		<div class="home_nav_footer">
-			<ul class="nav_footer_list">
-				<li class="footer_list_item"><a href="home.html">首页</a></li>
-				<li class="footer_list_item"><a href="#">新闻</a></li>
-				<li class="footer_list_item">
-					<a href="#">赛程</a>
-					<ul class="footer_list_second" style="display:none;">
-						<li><a href="#">篮球</a></li>
-						<li><a href="#">足球</a></li>
-					</ul>
-				</li>
-				<li class="footer_list_item">
-					<a href="#">球队</a>
-					<ul class="footer_list_second" style="display:none;">
-						<li><a href="#">篮球</a></li>
-						<li><a href="#">足球</a></li>
-					</ul>
-				</li>
-				<li class="footer_list_item"><a href="#">排名</a></li>
-			</ul>
-		</div>
+            <p class="message">欢迎您访问本网站！您可以在下面提出任何问题与建议，并请写出您的联系方式以便工作人员联系您！</p>
 
-	</div>
+            <textarea title></textarea>
 
-	<!--content开始-->
-	<div class="contentBox">
-		<div class="rank_title">
-			<img class="rank_logo_left" src="images/nav_basketball.png"/>
-			<h3>篮球排行榜</h3>
-			<img class="rank_logo_right" src="images/rank.png"/>
-		</div>
+            <a class="submit" href="javascript:void(0);">提交</a>
+        </div>
 
-		<div class="rank_box">
-			<!-- 左侧的球队排名-->
-			<div class="rank_box_team">
-				<div class="content_title">
-					<h2>球队排名</h2>
-				</div>
+    </div>
+</div>
 
-				<div class="rank_box_content">
-					<div class="box_content_header">
-						<ul class="content_header_year">
-							<li class="content_header_first">年份</li>
-							<li class="content_header_item rank_current">全部</li>
-							<li class="content_header_item">2015</li>
-							<li class="content_header_item">2014</li>
-							<li class="content_header_item">2013</li>
-							<li class="content_header_search">
-								<input type="text" class="input_year" placeholder="年份"/>
-								<i class="fa fa-search icon_search"></i>
-							</li>
-						</ul>
-					</div>
+<!--返回顶部-->
+<div id='goToTop'>
+    <a href='javascript:void(0);'><i class="fa fa-angle-up"></i></a>
+</div>
 
-					<div class="box_content_main">
+<!--导航-->
+<div class="home_nav">
+    <div class="home_nav_top">
+        <div class="nav_top_logo">
+            <img src="images/buptyh.png" alt="北京邮电大学研究生会"/>
+        </div>
 
-						<ul class="rank_main_list title">
-							<li class="rank_main_position">名次</li>
-							<li class="rank_main_teamname">队名</li>
-							<li class="rank_main_win">胜</li>
-							<li class="rank_main_equal">平</li>
-							<li class="rank_main_lose">负</li>
-							<li class="rank_main_score">积分</li>
-							<li class="rank_main_order ">
-								<a class="order_up " href=""></a>
-								<a class="order_down" href=""></a>
-							</li>
-						</ul>
+        <div class="nav_top_title">
+            <h1>北京邮电大学研究生会</h1>
+        </div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+        <div class="nav_top_right">
+            <img class="nav_top_picbasket" src="images/nav_basketball.png" alt="篮球"/>
+            <img class="nav_top_picfoot" src="images/nav_football.png" alt="足球"/>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+            <p class="top_right_ti">体</p>
+            <p class="top_right_yu">育</p>
+            <p class="top_right_bu">部</p>
+        </div>
+    </div>
+    <div class="home_nav_footer">
+        <ul class="nav_footer_list">
+            <li class="footer_list_item"><a href="./index.html">首页</a></li>
+            <li class="footer_list_item"><a href="./news.html">新闻</a></li>
+            <li class="footer_list_item">
+                <a href="./events.html">比赛</a>
+                <ul class="footer_list_second" style="display:none;">
+                    <li><a href="./events.html">篮球</a></li>
+                    <li><a href="./events.html">足球</a></li>
+                </ul>
+            </li>
+            <li class="footer_list_item">
+                <a href="javascript:void(0);">球队</a>
+                <ul class="footer_list_second" style="display:none;">
+                    <li><a href="./teamlist_bas.html">篮球</a></li>
+                    <li><a href="./teamlist_soc.html">足球</a></li>
+                </ul>
+            </li>
+            <li class="footer_list_item">
+                <a href="javascript:void(0);">排名</a>
+                <ul class="footer_list_second" style="display:none;">
+                    <li><a href="./rank_bas.html">篮球</a></li>
+                    <li><a href="./rank_soc.html">足球</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+</div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+<!--content开始-->
+<div class="contentBox">
+    <div class="rank_title">
+        <img class="rank_logo_left" src="images/nav_basketball.png"/>
+        <h3>篮球排行榜</h3>
+        <img class="rank_logo_right" src="images/rank.png"/>
+    </div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+    <div class="rank_box">
+        <!-- 左侧的球队排名-->
+        <div class="rank_box_team">
+            <div class="content_title">
+                <h2>球队排名</h2>
+            </div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+            <div class="rank_box_content">
+                <div class="box_content_header">
+                    <ul class="content_header_year">
+                        <li class="content_header_first">年份</li>
+                        <li class="content_header_item rank_current">全部</li>
+                        <li class="content_header_item">2015</li>
+                        <li class="content_header_item">2014</li>
+                        <li class="content_header_item">2013</li>
+                        <li class="content_header_search">
+                            <input type="text" class="input_year" placeholder="年份"/>
+                            <i class="fa fa-search icon_search"></i>
+                        </li>
+                    </ul>
+                </div>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                <div class="box_content_main">
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list title">
+                        <li class="rank_main_position">名次</li>
+                        <li class="rank_main_teamname">队名</li>
+                        <li class="rank_main_win">胜</li>
+                        <li class="rank_main_equal">平</li>
+                        <li class="rank_main_lose">负</li>
+                        <li class="rank_main_score rank_order_current">积分</li>
+                        <li class="rank_main_order ">
+                            <a class="order_up" href="javascript:void(0);"></a>
+                            <a class="order_down" href="javascript:void(0);"></a>
+                        </li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position rank1">1</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">电子队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position rank2">2</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">电子队(2015)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position rank3">3</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">光研队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">4</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">四院联队(2017)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">5</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">自动化队(2017)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_teamname"><a>信通1队(2015)</a></li>
-							<li class="rank_main_win">10</li>
-							<li class="rank_main_equal">2</li>
-							<li class="rank_main_lose">1</li>
-							<li class="rank_main_score">200</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">6</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通2队(2015)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
 
-					</div>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">7</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通1队(2017)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">8</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">计算机2队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">9</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">计算机1队(2015)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">10</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通2队(2017)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">11</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通1队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">12</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通1队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">13</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">计算机1队(2016)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">14</li>
+                        <li class="rank_main_teamname"><a href="./one_team.html">信通1队(2015)</a></li>
+                        <li class="rank_main_win">10</li>
+                        <li class="rank_main_equal">2</li>
+                        <li class="rank_main_lose">1</li>
+                        <li class="rank_main_score">200</li>
+                    </ul>
+
+                </div>
 
 
-				</div>
-			</div>
+            </div>
+        </div>
 
-			<!-- 右侧的队员排名-->
-			<div class="rank_box_member">
+        <!-- 右侧的队员排名-->
+        <div class="rank_box_member">
 
-				<div class="content_title">
-					<h2>队员排名</h2>
-				</div>
+            <div class="content_title">
+                <h2>队员排名</h2>
+            </div>
 
-				<div class="rank_box_content">
-					<div class="box_content_header">
-						<ul class="content_header_year">
-							<li class="content_header_first">年份</li>
-							<li class="content_header_item rank_current">全部</li>
-							<li class="content_header_item">2015</li>
-							<li class="content_header_item">2014</li>
-							<li class="content_header_item">2013</li>
-							<li class="content_header_search">
-								<input type="text" class="input_year" placeholder="年份"/>
-								<i class="fa fa-search icon_search"></i>
-							</li>
-						</ul>
+            <div class="rank_box_content">
+                <div class="box_content_header">
+                    <ul class="content_header_year">
+                        <li class="content_header_first">年份</li>
+                        <li class="content_header_item rank_current">全部</li>
+                        <li class="content_header_item">2015</li>
+                        <li class="content_header_item">2014</li>
+                        <li class="content_header_item">2013</li>
+                        <li class="content_header_search">
+                            <input type="text" class="input_year" placeholder="年份"/>
+                            <i class="fa fa-search icon_search"></i>
+                        </li>
+                    </ul>
 
-					</div>
+                </div>
 
-					<div class="box_content_main">
+                <div class="box_content_main">
 
-						<ul class="rank_main_list title">
-							<li class="rank_main_position">名次</li>
-							<li class="rank_main_playername">人名</li>
-							<li class="rank_main_teamname1">队名</li>
-							<li class="rank_main_wintimes se_pink rank_order_current"><a href="">总胜场</a></li>
-							<li class="rank_main_order ">
-								<a class="order_up " href=""></a>
-								<a class="order_down" href=""></a>
-							</li>
-							<li class="rank_main_averagescore se_pink"><a href="">场均得分</a></li>
-							<li class="rank_main_order ">
-								<a class="order_up " href=""></a>
-								<a class="order_down" href=""></a>
-							</li>
-						</ul>
+                    <ul class="rank_main_list title">
+                        <li class="rank_main_position">名次</li>
+                        <li class="rank_main_playername">人名</li>
+                        <li class="rank_main_teamname1">队名</li>
+                        <li class="rank_main_wintimes se_pink rank_order_current">总胜场</li>
+                        <li class="rank_main_order ">
+                            <a class="order_up " href="javascript:void(0);"></a>
+                            <a class="order_down" href="javascript:void(0);"></a>
+                        </li>
+                        <li class="rank_main_averagescore se_pink">场均得分</li>
+                        <li class="rank_main_order ">
+                            <a class="order_up " href="javascript:void(0);"></a>
+                            <a class="order_down" href="javascript:void(0);"></a>
+                        </li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position rank1">1</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">计算机1队(2016)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position rank2">2</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三1</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">信通1队(2015)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position rank3">3</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三2</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">计算机2队(2016)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">4</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三3</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">信通1队(2015)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">5</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三4</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">计算机2队(2015)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">6</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三5</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">计算机2队(2017)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">7</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三6</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">计算机1队(2017)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">8</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三7</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">信通1队(2017)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">9</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三8</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">自动化队(2017)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">10</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三9</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">自动化队(2016)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">11</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三10</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">网研队(2016)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list ">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list ">
+                        <li class="rank_main_position">12</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三11</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">四院联队(2016)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">13</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三12</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">四院联队(2015)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-						<ul class="rank_main_list">
-							<li class="rank_main_position">第1名</li>
-							<li class="rank_main_playername"><a href="">张三</a></li>
-							<li class="rank_main_teamname1"><a href="">信通1队(2015)</a></li>
-							<li class="rank_main_wintimes">23</li>
-							<li class="rank_main_averagescore">23</li>
-						</ul>
+                    <ul class="rank_main_list">
+                        <li class="rank_main_position">14</li>
+                        <li class="rank_main_playername"><a href="./one_member.html">张三李四</a></li>
+                        <li class="rank_main_teamname1"><a href="./one_team.html">电子队(2015)</a></li>
+                        <li class="rank_main_wintimes">23</li>
+                        <li class="rank_main_averagescore">23</li>
+                    </ul>
 
-					</div>
+                </div>
 
-				</div>
-			</div>
-		</div>
+            </div>
+        </div>
+    </div>
 
-	</div>
+</div>
 
 </body>
 <script src="js/base/jquery.min.js"></script>
