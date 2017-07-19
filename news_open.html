@@ -12,6 +12,7 @@
 
 <body>
 
+<!---意见反馈-->
 <div id="feedbackall">
 
     <div id="feedbacktab">
@@ -26,9 +27,9 @@
 
             <p class="message">欢迎您访问本网站！您可以在下面提出任何问题与建议，并请写出您的联系方式以便工作人员联系您！</p>
 
-            <textarea></textarea>
+            <textarea title></textarea>
 
-            <a class="submit" href="#">提交</a>
+            <a class="submit" href="javascript:void(0);">提交</a>
         </div>
 
     </div>
@@ -36,13 +37,13 @@
 
 
 <div id='goToTop'>
-    <a href='#'><i class="fa fa-angle-up"></i></a>
+    <a href='javascript:void(0);'><i class="fa fa-angle-up"></i></a>
 </div>
 
 <!--导航-->
 <div class="home_nav">
     <div class="home_nav_top">
-        <div class="nav_top_logo" >
+        <div class="nav_top_logo">
             <img src="images/buptyh.png" alt="北京邮电大学研究生会"/>
         </div>
 
@@ -51,8 +52,8 @@
         </div>
 
         <div class="nav_top_right">
-            <img class="nav_top_picbasket" src="images/nav_basketball.png" alt=""/>
-            <img class="nav_top_picfoot" src="images/nav_football.png" alt=""/>
+            <img class="nav_top_picbasket" src="images/nav_basketball.png" alt="篮球"/>
+            <img class="nav_top_picfoot" src="images/nav_football.png" alt="足球"/>
 
             <p class="top_right_ti">体</p>
             <p class="top_right_yu">育</p>
@@ -61,23 +62,29 @@
     </div>
     <div class="home_nav_footer">
         <ul class="nav_footer_list">
-            <li class="footer_list_item"><a href="home.html">首页</a></li>
-            <li class="footer_list_item"><a href="#">新闻</a></li>
+            <li class="footer_list_item"><a href="./index.html">首页</a></li>
+            <li class="footer_list_item active"><a href="./news.html">新闻</a></li>
             <li class="footer_list_item">
-                <a href="#">赛程</a>
+                <a href="./events.html">比赛</a>
                 <ul class="footer_list_second" style="display:none;">
-                    <li><a href="#">篮球</a></li>
-                    <li><a href="#">足球</a></li>
+                    <li><a href="./events.html">篮球</a></li>
+                    <li><a href="./events.html">足球</a></li>
                 </ul>
             </li>
             <li class="footer_list_item">
-                <a href="#">球队</a>
+                <a href="javascript:void(0);">球队</a>
                 <ul class="footer_list_second" style="display:none;">
-                    <li><a href="#">篮球</a></li>
-                    <li><a href="#">足球</a></li>
+                    <li><a href="./teamlist_bas.html">篮球</a></li>
+                    <li><a href="./teamlist_soc.html">足球</a></li>
                 </ul>
             </li>
-            <li class="footer_list_item"><a href="#">排名</a></li>
+            <li class="footer_list_item">
+                <a href="javascript:void(0);">排名</a>
+                <ul class="footer_list_second" style="display:none;">
+                    <li><a href="./rank_bas.html">篮球</a></li>
+                    <li><a href="./rank_soc.html">足球</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
@@ -85,6 +92,7 @@
 
 <!--content开始-->
     <div class="contentBox">
+
     <!--新闻页面-->
          <div class="news_body">
 
@@ -111,12 +119,12 @@
 
               <div class="news_box_content">
                   <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <a class="news_box_teamname" href="#">计算机1队(2015)</a>
+                    <a class="news_box_teamname" href="./one_team.html">计算机1队(2015)</a>
                     ：2-周鸿超，9-吴京辰，10-童云翔，11-何凌宇，12-萨马西，14-黄昉，21-孙鸿青，25-戴浩，27-马骏维，66-袁泉，77-郭咏池
                   </p>
 
                   <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <a class="news_box_teamname" href="#">网研队(2015)</a>
+                    <a class="news_box_teamname" href="./one_team.html">网研队(2015)</a>
                     ：1-刘祎睿，3-甘林，6-王迅，9-张兴贤，10-邓国川，11-关哲，14-吴鑫，16-于析仝，28-刘思辰，36-刘陟，18-肖建昕
                   </p>
               </div>
@@ -258,7 +266,7 @@
 <div class="pic_close">
     <i class="fa fa-close"></i>
 </div>
-<div class="change_pic" style="display: none" onselectstart='return false'>
+<div class="change_pic" style="display: none">
     <div class="pic_left">
       <i class="fa fa-chevron-left"></i>
     </div>

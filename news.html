@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>新闻</title>
+    <title>全部新闻</title>
     <link rel="stylesheet" href="css/base/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/base/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/base/base.css"/>
@@ -10,6 +10,7 @@
 </head>
 <body>
 
+<!--意见反馈-->
 <div id="feedbackall">
 
     <div id="feedbacktab">
@@ -32,7 +33,7 @@
     </div>
 </div>
 
-
+<!--返回顶部-->
 <div id='goToTop'>
     <a href='#'><i class="fa fa-angle-up"></i></a>
 </div>
@@ -40,7 +41,7 @@
 <!--导航-->
 <div class="home_nav">
     <div class="home_nav_top">
-        <div class="nav_top_logo" >
+        <div class="nav_top_logo">
             <img src="images/buptyh.png" alt="北京邮电大学研究生会"/>
         </div>
 
@@ -49,8 +50,8 @@
         </div>
 
         <div class="nav_top_right">
-            <img class="nav_top_picbasket" src="images/nav_basketball.png" alt=""/>
-            <img class="nav_top_picfoot" src="images/nav_football.png" alt=""/>
+            <img class="nav_top_picbasket" src="images/nav_basketball.png" alt="篮球"/>
+            <img class="nav_top_picfoot" src="images/nav_football.png" alt="足球"/>
 
             <p class="top_right_ti">体</p>
             <p class="top_right_yu">育</p>
@@ -59,23 +60,29 @@
     </div>
     <div class="home_nav_footer">
         <ul class="nav_footer_list">
-            <li class="footer_list_item"><a href="home.html">首页</a></li>
-            <li class="footer_list_item"><a href="#">新闻</a></li>
+            <li class="footer_list_item"><a href="./index.html">首页</a></li>
+            <li class="footer_list_item active"><a href="./news.html">新闻</a></li>
             <li class="footer_list_item">
-                <a href="#">赛程</a>
+                <a href="./events.html">比赛</a>
                 <ul class="footer_list_second" style="display:none;">
-                    <li><a href="#">篮球</a></li>
-                    <li><a href="#">足球</a></li>
+                    <li><a href="./events.html">篮球</a></li>
+                    <li><a href="./events.html">足球</a></li>
                 </ul>
             </li>
             <li class="footer_list_item">
-                <a href="#">球队</a>
+                <a href="javascript:void(0);">球队</a>
                 <ul class="footer_list_second" style="display:none;">
-                    <li><a href="#">篮球</a></li>
-                    <li><a href="#">足球</a></li>
+                    <li><a href="./teamlist_bas.html">篮球</a></li>
+                    <li><a href="./teamlist_soc.html">足球</a></li>
                 </ul>
             </li>
-            <li class="footer_list_item"><a href="#">排名</a></li>
+            <li class="footer_list_item">
+                <a href="javascript:void(0);">排名</a>
+                <ul class="footer_list_second" style="display:none;">
+                    <li><a href="./rank_bas.html">篮球</a></li>
+                    <li><a href="./rank_soc.html">足球</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
@@ -86,114 +93,118 @@
     <!--新闻页面-->
     <div class="news_content_events">
         <div class="news_title">
-            <h1 >全部新闻</h1>
-          
+            <h1>全部新闻</h1>
+
             <span class="news_title_search">
-              <input type="text" class="news_title_input" />
+              <input type="text" class="news_title_input" title/>
               <a><i class="fa fa-search"></i></a>
             </span>
-          
-            </div>
-            <div class="news_list_box">
-               <div class="news_list1_container">
-                   <div class="news_content">
-                       <a class="news_con" target="_blank" href="">
-                           <div class="news_hd">
-                           <h3 >电子 VS 自动化（7:5）</h3>
-                               </div>
-                           <div class="news_chapter">
-                           <div class="news_bd">
-                               <div class="news_picture">
-                                   <img src="images/news_pic01.png"/>
-                               </div>
-                               <div class="news_txt">
-                                   <da class="news_time"><p>2015年11月10日</p></da>
-                                   <div class="news_txt_con"><p>我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
-                                       ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连.....</p>
-                               </div>
-                                   </div>
-                               </div>
-                           </div>
-                           </a>
-                       </div>
 
-                  </div>
-               <div class="news_list1_container">
-               <div class="news_content">
-                   <a class="news_con" target="_blank" href="http://nbachina.qq.com/a/20151113/046617.htm">
-                       <div class="news_hd">
-                           <h3 >电子 VS 自动化（7:5）</h3>
-                       </div>
-                       <div class="news_chapter">
-                           <div class="news_bd ch">
-                               <div class="news_picture">
-                                   <img src="images/news_pic01.png"/>
-                               </div>
-                               <div class="news_txt">
-                                   <da class="news_time"><p>2015年11月10日</p></da>
-                                   <db class="news_txt_con"><p>我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
-                                       ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
-                                   </db>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-
-           </div>
-               <div class="news_list1_container">
-               <div class="news_content">
-                   <a class="news_con" target="_blank" href="http://nbachina.qq.com/a/20151113/046617.htm">
-                       <div class="news_hd">
-                           <h3 >电子 VS 自动化（7:5）</h3>
-                       </div>
-                       <div class="news_chapter">
-                           <div class="news_bd ch">
-                               <div class="news_picture">
-                                   <img src="images/news_pic01.png"/>
-                               </div>
-                               <div class="news_txt">
-                                   <da class="news_time"><p>2015年11月10日</p></da>
-                                   <db class="news_txt_con"><p>我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
-                                       ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
-                                   </db>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-
-           </div>
-               <div class="news_list1_container">
-               <div class="news_content">
-                   <a class="news_con" target="_blank" href="http://nbachina.qq.com/a/20151113/046617.htm">
-                       <div class="news_hd">
-                           <h3 >电子 VS 自动化（7:5）</h3>
-                       </div>
-                       <div class="news_chapter">
-                           <div class="news_bd ch">
-                               <div class="news_picture">
-                                   <img src="images/news_pic01.png"/>
-                               </div>
-                               <div class="news_txt">
-                                   <da class="news_time"><p>2015年11月10日</p></da>
-                                   <db class="news_txt_con"><p>我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
-                                       ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
-                                   </db>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-
-           </div>
-                </div>
-                <div class="news_page">
-                  <a>点击加载更多</a>
-                </div>
-
-</div>
         </div>
+        <div class="news_list_box">
+            <div class="news_list1_container">
+                <div class="news_content">
+                    <a class="news_con" target="_blank" href="./news_open.html">
+                        <div class="news_hd">
+                            <h3>电子 VS 自动化（7:5）</h3>
+                        </div>
+                        <div class="news_chapter">
+                            <div class="news_bd">
+                                <div class="news_picture">
+                                    <img src="images/news_pic01.png"/>
+                                </div>
+                                <div class="news_txt">
+                                    <div class="news_time"><p>2015年11月10日</p></div>
+                                    <div class="news_txt_con">
+                                        <p>我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
+                                            ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连.....</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="news_list1_container">
+                <div class="news_content">
+                    <a class="news_con" target="_blank" href="./news_open.html">
+                        <div class="news_hd">
+                            <h3>电子 VS 自动化（7:5）</h3>
+                        </div>
+                        <div class="news_chapter">
+                            <div class="news_bd ch">
+                                <div class="news_picture">
+                                    <img src="images/news_pic01.png"/>
+                                </div>
+                                <div class="news_txt">
+                                    <div class="news_time"><p>2015年11月10日</p></div>
+                                    <div class="news_txt_con"><p>
+                                        我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
+                                        ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="news_list1_container">
+                <div class="news_content">
+                    <a class="news_con" target="_blank" href="./news_open.html">
+                        <div class="news_hd">
+                            <h3>电子 VS 自动化（7:5）</h3>
+                        </div>
+                        <div class="news_chapter">
+                            <div class="news_bd ch">
+                                <div class="news_picture">
+                                    <img src="images/news_pic01.png"/>
+                                </div>
+                                <div class="news_txt">
+                                    <div class="news_time"><p>2015年11月10日</p></div>
+                                    <div class="news_txt_con"><p>
+                                        我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
+                                        ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="news_list1_container">
+                <div class="news_content">
+                    <a class="news_con" target="_blank" href="./news_open.html">
+                        <div class="news_hd">
+                            <h3>电子 VS 自动化（7:5）</h3>
+                        </div>
+                        <div class="news_chapter">
+                            <div class="news_bd ch">
+                                <div class="news_picture">
+                                    <img src="images/news_pic01.png"/>
+                                </div>
+                                <div class="news_txt">
+                                    <div class="news_time"><p>2015年11月10日</p></div>
+                                    <div class="news_txt_con"><p>
+                                        我要谈的不是斯蒂芬-库里的46分和勇士的10连胜，也不是布雷克-格里芬的两次技术犯规被逐，而是泰勒-约翰逊的17分和追梦-格林的12次助攻
+                                        ，我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连胜我要谈的是泰勒-约翰逊的17分和追梦-我要谈的不是斯蒂芬-库里的46分和勇士的10连......
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="news_page">
+            <a>点击加载更多</a>
+        </div>
+
+    </div>
+</div>
 </body>
 <script src="js/base/jquery.min.js"></script>
 <script src="js/base/bootstrap.min.js"></script>
